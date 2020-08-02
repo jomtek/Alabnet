@@ -1,6 +1,10 @@
 ![enter image description here](https://i.imgur.com/mlUgail.jpg)
 
 A lightweight, secure and open-source screenshare utility, written in C#, using no external library.
+
+# Notes
+ - At the moment, the encryption doesn't work properly. It is disabled temporarily.
+
 # Usage
 ## As a client
 - Download Alabnet
