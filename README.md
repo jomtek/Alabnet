@@ -3,12 +3,13 @@
 A lightweight, secure and open-source screenshare utility, written in C#, using no external library.
 # Usage
 ## As a client
-1 - Download Alabnet
-2 - Type `alabnet connect [ip] [port] [pass] [nick]`
- - By default : `ip` is `localhost`, `port` is `80`, `pass` is (empty string), `nick` is `unknown`
- - `ip` will be resolved automatically
+- Download Alabnet
+	- `alabnet connect [ip] [port] [pass] [nick]`
+	 - By default : `ip` is `localhost`, `port` is `80`, `pass` is (empty string), `nick` is `unknown`
+	- `ip` will be resolved automatically
 
-A window will open. If you double-tap it, it'll turn Topmost (i.e. always in the first plan in your screen)
+If the sender accepts your connection, a window will open.
+If you double-tap it, it'll turn Topmost (i.e. always in the first plan in your screen)
 
 ## As a sender
  - Open `cmd` and type `ipconfig`
